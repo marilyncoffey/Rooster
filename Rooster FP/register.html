@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Rooster | Cockadoodledoo</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<!-- Style Sheet -->
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+<div class="container">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">HOME</a></li>
+        <li class="active"><a href="register.html">REGISTER</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <img src="roosterLogo.png" class="img-responsive" alt="Rooster">
+    <img src="roosterText.png" class="img-responsive" alt="Rooster">
+    <p>A Social Community for Farmers</p>
+  </div>
+
+</div>
+<div class="container">
+	<form action="register.php" method="post">
+			<div class="row">
+        	<div class="col-sm-4">
+        				 <div class="form-group">
+                   <label for="EmailAddress">Email address:</label>
+                   <input type="EmailAddress" class="form-control" id="EmailAddress" name="EmailAddress">
+                 </div>
+                 <div class="form-group">
+                   <label for="pwd">Password:</label>
+                   <input type="password" class="form-control" id="Password" name="Password">
+                </div>
+
+        	       <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="FirstName" class="form-control" name="FirstName"  />
+                </div>
+        			  <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="LastName" class="form-control" name="LastName"  />
+                </div>
+
+        		      Already Registered? Click <a href="login.html">here</a><br />
+                  <button type="submit" class="btn btn-default">Register</button>
+          	</form>
+        	  </div>
+        <div class="col-sm-8">
+          <h1>Registration Rules</h1>
+            <b>1.</b> Must be 13 years or older to register and use Rooster.
+            (Or have the ability operate commercial grade farming equipment.)
+            <br><b>2.</b> Must have valid e-mail address.
+            <br><b>3.</b> Must agree to weekly Farming related emails-
+            <i>"The Morning Roost"</i>. (<u>Not able to opt out.</u>)
+            <br><b>4.</b> Roosting is only available from 7:00 PM to 4:00 AM.
+            If you have to ask why you are not a farmer and are not to register.
+            <br><b>5.</b> Thou shall not covet thy neighbors crop or equipment.
+            <br><b>6.</b> This is not a dating website. To find your farming
+            companion, please visit our partner <a href="www.farmersonly.com">Farmers Only</a>.
+            <br><b>7.</b> This is not a sales community, to sell goods or equipment
+            please register for our sister sales site, <b>The Barn</b>.
+	      </div>
+	</div>
+</div>
+
+</body>
+<html>

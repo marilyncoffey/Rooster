@@ -1,0 +1,155 @@
+body{
+  background-image:url("roosterBG.jpg");
+  font-family:georgia;
+  color:#white;
+  letter-spacing:1px;
+}
+h1{
+  font-size:14pt;
+  letter-spacing:1px;
+  color:#911833;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+h2{
+  font-size:14pt;
+  letter-spacing:1px;
+  color:#3a3a3a;
+  border-bottom: 1px solid #911833;
+}
+.header {
+  background-color:white;
+  max-width:100%;
+  height:auto;
+}
+.container {
+  padding:10px;
+  background-color:white;
+  margin-right: auto;
+  margin-left: auto;
+  overflow:hidden;
+  max-width:750px;
+}
+b{ color: #911833;}
+
+.footer {
+  background-color: #911833;
+  background-repeat:repeat;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width:750px;
+  height:auto;
+  color:white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a:link { color: #911833; }
+a:visited { color: #4c4c4c; }
+a:hover { color: #911833; }
+a:active { color: #911833; }
+
+.navbar.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  font-family: 'Georgia';
+  letter-spacing:3px;
+}
+.navbar.navbar-default .navbar-brand {
+  color: #3a3a3a;
+  font-family: 'Georgia';
+  letter-spacing:3px;
+}
+.navbar.navbar-default .navbar-brand:hover,
+.navbar.navbar-default .navbar-brand:focus {
+  color: #0d2547;
+  font-family: 'Georgia';
+  letter-spacing:3px;
+}
+.navbar.navbar-default .navbar-text {
+  color: #4c4c4c;
+  font-family: 'Georgia';
+  letter-spacing:3px;
+}
+.navbar.navbar-default .navbar-nav > li > a {
+  color: #911833;
+  font-family: 'Georgia';
+  letter-spacing:3px;
+}
+.navbar.navbar-default .navbar-nav > li > a:hover,
+.navbar.navbar-default .navbar-nav > li > a:focus {
+  color: #911833;
+  font-family: 'Georgia';
+  letter-spacing:3px;
+}
+.navbar.navbar-default .navbar-nav > .active > a,
+.navbar.navbar-default .navbar-nav > .active > a:hover,
+.navbar.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #911833;
+}
+.navbar.navbar-default .navbar-nav > .open > a,
+.navbar.navbar-default .navbar-nav > .open > a:hover,
+.navbar.navbar-default .navbar-nav > .open > a:focus {
+  color: #911833;
+  font-family: 'Georgia';
+  letter-spacing:3px;
+}
+.navbar.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar.navbar-default .navbar-toggle:hover,
+.navbar.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar.navbar-default .navbar-toggle .icon-bar {
+  background-color: #911833;
+  font-family: 'Georgia';
+  letter-spacing:3px;
+}
+.navbar.navbar-default .navbar-collapse,
+.navbar.navbar-default .navbar-form {
+  border:none;
+}
+.navbar.navbar-default .navbar-link {
+  color: #911833;
+  font-family: 'Georgia';
+  letter-spacing:3px;
+}
+.navbar.navbar-default .navbar-link:hover {
+  color: #911833;
+  font-family: 'Georgia';
+  letter-spacing:3px;
+}
+.nav.navbar-nav > li.navbar-left {
+  font-family: 'Georgia';
+  letter-spacing:3px;
+  font-size: 11px;
+}
+.navbar-brand {
+  padding: 0px;
+  color:#911833;
+  letter-spacing:3px;
+}
+.navbar-brand>img {
+  height: 90%;
+  width: auto;
+}
+.banner {
+	width: 100%;
+}
+.banner-inner {
+	max-width: 750px;
+	margin: 0 auto;
+}
+@media (min-width:750px) and (max-width:900px){
+  .container.navbar-container {
+     width:100%;
+     padding:0;
+  }
+}
